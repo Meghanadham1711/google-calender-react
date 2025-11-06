@@ -1,0 +1,78 @@
+.calendar-container {
+  max-width: 760px;
+  margin: 24px auto;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.nav-btn {
+  padding: 6px 10px;
+  background: #f1f5f9;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.day-names, .grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.day-names {
+  text-align: center;
+  font-weight: 600;
+  background: #f8fafc;
+  padding: 8px 0;
+  border-radius: 6px;
+  margin-bottom: 4px;
+}
+
+.day, .empty {
+  min-height: 96px;
+  border: 1px solid #e6e9ee;
+  padding: 6px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.date-number {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.highlight {
+  background: #fff7cc;
+  border: 2px solid #f7d154;
+}
+
+.event {
+  margin-top: 6px;
+  padding: 6px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.event.normal {
+  background: #e6f0ff;
+  border-left: 4px solid #2563eb;
+  color: #0f172a;
+}
+
+.event.conflict {
+  background: #ffe6e6;
+  border-left: 4px solid #dc2626;
+  color: #0b1220;
+}
+
+/* small utility */
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

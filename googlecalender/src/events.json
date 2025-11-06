@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Team Meeting",
+    "date": "2025-03-10",
+    "startTime": "10:00",
+    "endTime": "11:00"
+  },
+  {
+    "title": "Client Call",
+    "date": "2025-03-10",
+    "startTime": "10:30",
+    "endTime": "11:30"
+  },
+  {
+    "title": "Doctor Appointment",
+    "date": "2025-03-15",
+    "startTime": "16:30",
+    "endTime": "17:00"
+  },
+  {
+    "title": "Project Presentation",
+    "date": "2025-03-21",
+    "startTime": "14:00",
+    "endTime": "16:00"
+  },
+    {
+    "title": "Project Presentation",
+    "date": "2025-10-21",
+    "startTime": "14:00",
+    "endTime": "16:00"
+  },
+    {
+    "title": "Project Presentation",
+    "date": "2025-11-07",
+    "startTime": "10:00",
+    "endTime": "12:00"
+  },
+   {
+    "title": "Project Showcase",
+    "date": "2025-11-07",
+    "startTime": "14:00",
+    "endTime": "16:00"
+  },
+   {
+    "title": "Project Showcase",
+    "date": "2025-12-07",
+    "startTime": "14:00",
+    "endTime": "16:00"
+  },{
+    "title":"work out",
+    "date":"2025-11-10",
+    "startTime":"10:00",
+    "endTime":"12:00"
+  },
+  {
+  "title":"work out",
+    "date":"2025-11-10",
+    "startTime":"10:00",
+    "endTime":"12:00"
+  }
+]
