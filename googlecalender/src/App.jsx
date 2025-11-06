@@ -1,5 +1,5 @@
 import React from 'react'
-import Calendar from './Calender'
+import Calendar from './Calender.jsx'
 import "./Calender.css"
 const App = () => {
   return (
